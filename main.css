@@ -1,0 +1,313 @@
+body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: #ccc;
+      color: black;
+      margin: 0;
+      padding: 0;
+}
+
+.container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #EABCAD;
+      width: 1200px;
+      height: 200px;
+      color: black
+}
+
+.content {
+      background-color: #fff;
+      width: 1200px;
+      height: 100%;
+}
+
+.new-button-container {
+      display: flex;
+      justify-content: center;
+}
+
+.button {
+      background-color: rgb(26, 24, 24);
+      width: 100px;
+      height: 25px;
+      margin-top: 30px;
+      margin-bottom: 20px;
+      border: none;
+      font-weight: bold;
+      color: white;
+      border-radius: 5px;
+      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+      transition: 0.5s;
+      cursor: pointer;
+}
+
+.button:hover {
+      background-color: #B3684F;
+      transition: 0.5s;
+}
+
+.main-form {
+      background-color: #E6CAC1;
+      display: flex;
+      margin-left: auto;
+      margin-right: auto;
+      width: 600px;
+      height: 500px;
+      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+      margin-top: 30px;
+      border-radius: 10px;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: black;
+}
+
+.main-form h2 {
+      margin-bottom: 50px;
+}
+
+.input-form {
+      margin-bottom: 10px;
+      font-size: 18px;
+}
+
+.input-form p {
+      width: 400px;
+}
+
+input {
+      height: 30px;
+      border-style: none;
+      border-radius: 5px;
+}
+
+table {
+      width: 100%;
+      height: 50px;
+      margin-top: 10px;
+      padding: 40px;
+      border-top: 2px solid rgb(26, 24, 24);
+      border-bottom: 2px solid rgb(26, 24, 24);
+}
+
+th {
+      border-top: 2px solid rgb(26, 24, 24);
+      border-bottom: 2px solid rgb(26, 24, 24);
+      background-color: #EABCAD;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 10px;
+}
+
+td {
+      text-align: center;
+      border-bottom: 2px solid rgb(26, 24, 24);
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 10px;
+}
+
+.alert-success {
+      text-align: center;
+      background-color: green;
+      color: white;
+}
+
+.alert-error {
+      text-align: center;
+      background-color: red;
+      color: white;
+}
+
+.edit-button {
+      background-color: #EE8A69;
+      height: 25px;
+      border: none;
+      font-weight: bold;
+      color: black;
+      border-radius: 5px;
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+      transition: 0.5s;
+      cursor: pointer;
+}
+
+.edit-button:hover {
+      opacity: 0.7;
+      transition: 0.5s;
+}
+
+.delete-button {
+      background-color: #EE8A69;
+      height: 25px;
+      margin-left: 5px;
+      border: none;
+      font-weight: bold;
+      color: black;
+      border-radius: 5px;
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+      transition: 0.5s;
+      cursor: pointer;
+}
+
+.delete-button:hover {
+      opacity: 0.7;
+      transition: 0.5s;
+}
+
+.back-button-container {
+      text-align: center;
+}
+
+.confirm-button-container {
+      display: flex;
+      justify-content: center;
+}
+
+.confirm-button-container button {
+      margin-right: 5px;
+}
+
+/*responsividade*/
+
+@media (max-width: 1200px) {
+      .container {
+            width: 900px;
+      }
+
+      .content {
+            width: 900px;
+      }
+
+      .edit-button {
+            margin-bottom: 5px;
+            font-size: 12px;
+            height: 25px;
+      }
+
+      .delete-button {
+            margin-bottom: 5px;
+            font-size: 12px;
+            height: 25px;
+      }
+
+      th {
+            font-size: 15px;
+      }
+
+      td {
+            font-size: 14px;
+      }
+}
+
+@media (max-width: 900px) {
+      .container {
+            width: 600px;
+      }
+
+      .content {
+            width: 600px;
+      }
+
+      .main-form {
+            width: 450px;
+            height: 400px;
+      }
+
+      .button {
+            font-size: 11px;
+            width: 80px;
+            height: 25px;
+      }
+
+      .edit-button {
+            margin-bottom: 5px;
+            font-size: 11px;
+            height: 18px;
+      }
+
+      .delete-button {
+            margin-bottom: 5px;
+            font-size: 11px;
+            height: 18px;
+      }
+
+      th {
+            font-size: 12px;
+      }
+
+      td {
+            font-size: 11px;
+      }
+}
+
+@media (max-width: 600px) {
+      .container {
+            width: 450px;
+            height: 150px;
+            font-size: 12px;
+      }
+
+      .content {
+            width: 450px;
+      }
+
+      .main-form {
+            width: 350px;
+            height: 300px;
+            font-size: 12px;
+      }
+
+      .input-form {
+            width: 280px;
+            font-size: 12px;
+      }
+
+      .input-form p {
+            font-size: 14px;
+      }
+
+      .input-text {
+            width: 185px;
+      }
+
+      .input-form-phone input {
+            width: 110px;
+      }
+
+      .main-form h2 {
+            font-size: 16px;
+            margin-bottom: 20px;
+
+      }
+
+      .button {
+            font-size: 10px;
+            width: 80px;
+            height: 22px;
+      }
+
+      .edit-button {
+            margin-bottom: 5px;
+            font-size: 8px;
+            height: 12px;
+      }
+
+      .delete-button {
+            margin-bottom: 5px;
+            font-size: 8px;
+            height: 12px;
+      }
+
+      th {
+            font-size: 9px;
+      }
+
+      td {
+            font-size: 8px;
+      }
+}

@@ -1,0 +1,12 @@
+{
+    "name": "registro/clientes",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "require": {
+        "squizlabs/php_codesniffer": "*",
+        "igorescobar/jquery-mask-plugin": "^1.14"
+    }
+}

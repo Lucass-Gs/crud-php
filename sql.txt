@@ -1,0 +1,5 @@
+CREATE TABLE `registro`.`clientes` ( `id` INT(5) NOT NULL AUTO_INCREMENT ,
+`nome` VARCHAR(255) NOT NULL ,
+`data_nasc` DATE NOT NULL ,
+`email` VARCHAR(255) NOT NULL ,
+`num` INT NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
